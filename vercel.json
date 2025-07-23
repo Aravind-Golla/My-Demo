@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/index.js",
+      "destination": "/new-path",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/posts/:slug",
+      "permanent": false
+    }
+  ]
+}
